@@ -65,12 +65,8 @@ app.post("/spend",async(c) => {
 
 	sum = body.points
 
-	console.log(db)
-
 	for(let i = 0; i < db.length; i++){
 		if(sum == 0) break
-
-		console.log("sum: "+ sum)
 
 		const reduction = Math.min(db[i].points, sum)
 
