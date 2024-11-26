@@ -1,4 +1,4 @@
-this projects assumes you have [nodejs](https://nodejs.org/en) setup on your system. Go a head an run.
+this projects assumes you have [nodejs](https://nodejs.org/en) setup on your system. Go a head and run.
 
 ```
 npm install
@@ -24,3 +24,5 @@ curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{
 ```sh
 curl http://localhost:8000/balance
 ```
+
+PS: avoid reload the server between api calls as I'm using an in memory datastructure to store data.
