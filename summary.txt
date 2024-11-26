@@ -1,0 +1,30 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I'm using Hono webframework running on nodejs runtime. 
+
+I have used javascript(with typescript) stack the most in my past projects. When I saw this task I wanted a tool that can allow me to write code as fast as I think. 
+That's why I went with typescript. 
+
+2. What are the advantages and disadvantages of your solution?
+
+disadvantages
+
+- I'm using an array datastructure as my database. For real world scenerious I would have went with postgres or mysql or redis or any other database out there
+- There is no data pesistance 
+- There is no authentication and authorization
+- Nodejs is not the most memory efficient runtime
+- I should have done a better data validation
+- I should have implemented end to end tests for my api
+
+advantages
+
+- I think it's easy to mentain because it's javascript
+- Code can be run on any computer that support javascript eg: AWS EC2, cloudflare workers, deno deploy, vercel, you name it.
+- Development speed is also good since I'm using a dyanmic language
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+My favorite programming projects are open-source projects I have developed. My favorite and most successful one is the eslint plugin for Vitest. I have been maintaining it since 2022.
+Before working on it, I didn't know how code parsers work, but it has challenged me to learn more about parsers and compiler theory, which are now my favorite concepts.
+
+Half a million people download it every single week, too, which is surreal to think about. Here is the link for it: https://github.com/vitest-dev/eslint-plugin-vitest
